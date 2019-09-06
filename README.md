@@ -11,3 +11,24 @@
 - 318&emsp;Maximum Product of Word Lengths  
 - 190&emsp;Reverse Bits    
 - 78&emsp;Subsets 
+
+### Day02
+- 393&emsp;UTF-8 Validation
+- 201&emsp;Bitwise AND of Numbers Range
+- 371&emsp;Sum of Two Integers
+- 342&emsp;Power of Four
+- 338&emsp;Counting Bits
+
+### Day03
+- 89&emsp;Gray Code
+- 137&emsp;Single Number II
+- 260&emsp;Single Number III
+
+### Day04
+- 7&emsp;Reverse Integer
+
+### Day05
+- 8&emsp;String to Integer (atoi)
+- 66&emsp;Plus One
+- 67&emsp;Add Binary
+- 258&emsp;Add Digits
