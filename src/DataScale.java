@@ -21,7 +21,7 @@ public class DataScale {
         }
         System.out.println(2 << 2);
     }
-    public static void main(String[] args) {
-        dataScale();
-    }
+//    public static void main(String[] args) {
+//        dataScale();
+//    }
 }
