@@ -38,7 +38,4 @@ public class DivideTwoIntegers {
         }
         return mul + ldivide(ldividend - sum, ldivisor);
     }
-    public static void main(String[] args) {
-        divide(-2147483648,-1);
-    }
 }
