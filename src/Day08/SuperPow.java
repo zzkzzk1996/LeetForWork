@@ -15,7 +15,19 @@ public class SuperPow {
     }
     private int superPow(int a, int[] b, int len, int k) {
         if (len == 1) return myPow(a, b[0], k);
-        return myPow(superPow(a, b, len - 1, k), 10, k) * myPow(a, b[len - 1], k) % k;
+        int nextBit = superPow(a, b, len - 1, k);
+        int thisBit = myPow(a, b[len - 1], k);
+        return myPow(nextBit, 10, k) * thisBit % k;
+    }
+
+    public int superPow1(int a, int[] b) {
+        int k = 1337;
+        a %= k;
+        int res = 1;
+        for (int i : b) {
+            res = myPow(res, 10, k) * myPow(a, i, k) % k;
+        }
+        return res;
     }
     private int myPow(int x, int y, int k) {
         x %= k;
