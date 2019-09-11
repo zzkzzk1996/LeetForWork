@@ -72,3 +72,8 @@
 ## Array
 
 ### [Day10](https://github.com/zzkzzk1996/LeetForWork/tree/master/src/Day10)
+- 27&emsp;Remove Element 数组操作
+- 26&emsp;Remove Duplicates from Sorted Array 数组操作
+- 80&emsp;Remove Duplicates from Sorted Array II 数组操作
+- 57&emsp;Insert Interval 区间问题
+- 56&emsp;Merge Intervals 区间问题
