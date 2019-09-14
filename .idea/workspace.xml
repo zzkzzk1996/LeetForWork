@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cc4dfd3-f445-4c0b-ac71-d900b3823fd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sortAlgorithm/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortAlgorithm/BubbleSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="4cc4dfd3-f445-4c0b-ac71-d900b3823fd3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,17 +86,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sortAlgorithm/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="28" column="5" selection-start-line="23" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Day13/MaximumProductSubarray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Day13/MaximumProductSubarray.java">
+        <entry file="file://$PROJECT_DIR$/src/sortAlgorithm/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="510">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -133,8 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Day07/Powxn.java" />
-        <option value="$PROJECT_DIR$/src/Day07/ValidPerfectSquare.java" />
         <option value="$PROJECT_DIR$/src/Day07/WaterandJugProblem.java" />
         <option value="$PROJECT_DIR$/src/Day07/CountPrimes.java" />
         <option value="$PROJECT_DIR$/src/Day07/DivideTwoIntegers.java" />
@@ -184,6 +189,8 @@
         <option value="$PROJECT_DIR$/src/sortAlgorithm/SortStable.java" />
         <option value="$PROJECT_DIR$/src/sortAlgorithm/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/sortAlgorithm/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/Day13/MaximumProductSubarray.java" />
+        <option value="$PROJECT_DIR$/src/sortAlgorithm/InsertSort.java" />
       </list>
     </option>
   </component>
@@ -217,12 +224,6 @@
               <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Day13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
@@ -349,12 +350,12 @@
       <workItem from="1567774922483" duration="4672000" />
       <workItem from="1567972298912" duration="11884000" />
       <workItem from="1568124613490" duration="15641000" />
-      <workItem from="1568341459580" duration="3255000" />
+      <workItem from="1568341459580" duration="3908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46590000" />
+    <option name="totallyTimeSpent" value="47243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,13 +423,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Day07/Sqrtx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Day07/DivideTwoIntegers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -817,15 +811,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortAlgorithm/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="420">
+          <caret line="28" column="5" selection-start-line="23" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day13/MaximumProductSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="330">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sortAlgorithm/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>
