@@ -16,7 +16,6 @@ public class BubbleSort {
                 if (nums[j] < nums[j - 1]) {
                     swap(j, j - 1, nums);
                 }
-
             }
         }
         System.out.println(Arrays.toString(nums));
