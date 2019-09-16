@@ -27,7 +27,7 @@ public class QuickSort {
             if (nums[r] >= pivot) r--;
         }
         swap(pivotIndex, r, nums);
-        return l;
+        return r;
     }
 
     private static int[] swap(int i, int j, int[] nums) {
