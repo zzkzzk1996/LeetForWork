@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * @program: LeetForWork
  * @description:
@@ -91,5 +93,8 @@ public class BinarySearch {
         return -1;
     }
 
-
+    public static void main(String[] args) {
+        int[] k = new int[0];
+        Arrays.binarySearch(k, 1);
+    }
 }
