@@ -1,6 +1,6 @@
-package myList.implementation;
+package myList.arrayList.implementation;
 
-import myList.MyArrayList;
+import myList.arrayList.MyArrayList;
 
 /**
  * @program: LeetForWork
@@ -9,8 +9,8 @@ import myList.MyArrayList;
  * @create: 2019-09-10 10:13
  */
 
-public class ArrayListImplementation implements MyArrayList {
-    private int[] data;
+public class ArrayListImplementation<E> implements MyArrayList<E> {
+    private E[] data;
     private int size;
 
     public ArrayListImplementation() {
@@ -18,7 +18,7 @@ public class ArrayListImplementation implements MyArrayList {
     }
 
     public ArrayListImplementation(int capacity) {
-        this.data = new int[capacity];
+        this.data = (E[]) new Object[capacity];
         this.size = 0;
     }
 
@@ -58,7 +58,7 @@ public class ArrayListImplementation implements MyArrayList {
      * @param element
      */
     @Override
-    public void add(int element) {
+    public void add(E element) {
         add(size, element);
     }
 
@@ -69,7 +69,7 @@ public class ArrayListImplementation implements MyArrayList {
      * @param element
      */
     @Override
-    public void add(int index, int element) {
+    public void add(int index, E element) {
         if (size == data.length) {
             resize(data.length * 2);
         }
@@ -90,7 +90,7 @@ public class ArrayListImplementation implements MyArrayList {
      * @return
      */
     @Override
-    public boolean contains(int element) {
+    public boolean contains(E element) {
         for (int i = 0; i < size; i++) {
             if (data[i] == element) {
                 return true;
@@ -106,7 +106,7 @@ public class ArrayListImplementation implements MyArrayList {
      * @return
      */
     @Override
-    public int get(int index) {
+    public E get(int index) {
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("Out of range");
         }
@@ -120,7 +120,7 @@ public class ArrayListImplementation implements MyArrayList {
      * @param element
      */
     @Override
-    public void set(int index, int element) {
+    public void set(int index, E element) {
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("Out of range");
         }
@@ -134,11 +134,11 @@ public class ArrayListImplementation implements MyArrayList {
      * @return
      */
     @Override
-    public int remove(int index) {
+    public E remove(int index) {
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("Out of range");
         }
-        int result = data[index];
+        E result = data[index];
         for (int i = index + 1; i < size; i++) {
             data[i - 1] = data[i];
         }
@@ -156,7 +156,7 @@ public class ArrayListImplementation implements MyArrayList {
      * @param element
      */
     @Override
-    public void removeElement(int element) {
+    public void remove(E element) {
         int index = -1;
         for (int i = 0; i < size; i++) {
             if (data[i] == element) {
@@ -184,7 +184,7 @@ public class ArrayListImplementation implements MyArrayList {
      */
     @Override
     public void resize(int capacity) {
-        int[] temp = new int[capacity];
+        E[] temp = (E[]) new Object[capacity];
         for (int i = 0; i < size; i++) {
             temp[i] = data[i];
         }

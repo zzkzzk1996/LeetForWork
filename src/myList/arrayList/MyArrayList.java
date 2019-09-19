@@ -1,6 +1,6 @@
-package myList;
+package myList.arrayList;
 
-public interface MyArrayList {
+public interface MyArrayList<E> {
     /**
      * capacity
      * @return
@@ -23,48 +23,48 @@ public interface MyArrayList {
      * add element to the last position of the array
      * @param element
      */
-    void add(int element);
+    void add(E element);
 
     /**
      * add element to the very position of the array
      * @param index
      * @param element
      */
-    void add(int index, int element);
+    void add(int index, E element);
 
     /**
      * find the very element
      * @param element
      * @return
      */
-    boolean contains(int element);
+    boolean contains(E element);
 
     /**
      * find the very element and return
      * @param index
      * @return
      */
-    int get(int index);
+    E get(int index);
 
     /**
      * modify the very element
      * @param index
      * @param element
      */
-    void set(int index, int element);
+    void set(int index, E element);
 
     /**
      * remove element by index
      * @param index
      * @return
      */
-    int remove(int index);
+    E remove(int index);
 
     /**
      * remove element by element
      * @param element
      */
-    void removeElement(int element);
+    void remove(E element);
 
     /**
      * print

@@ -1,6 +1,8 @@
 package myList;
 
-import myList.implementation.ArrayListImplementation;
+import myList.arrayList.implementation.ArrayListImplementation;
+import myList.linkedList.MyLinkedList;
+import myList.linkedList.implementation.LinkedListImplementation;
 
 /**
  * @program: LeetForWork
@@ -11,16 +13,13 @@ import myList.implementation.ArrayListImplementation;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayListImplementation arrayList = new ArrayListImplementation();
-        arrayList.add(1);
-        arrayList.add(2);
-        arrayList.add(3);
-        arrayList.add(4);
-        arrayList.add(5);
-        arrayList.add(0, 0);
-        arrayList.remove(3);
-        arrayList.removeElement(1);
-        arrayList.print();
-        System.out.println(arrayList.get(0));
+        MyLinkedList<Integer> list = new LinkedListImplementation<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(8);
+        list.print();
+        list.add(0, 100);
+        list.print();
     }
 }
