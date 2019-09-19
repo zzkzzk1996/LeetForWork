@@ -69,7 +69,7 @@
 - 397&emsp;Integer Replacement
 - 368&emsp;Largest Divisible Subset
 
-## Array
+## Array & Sorting
 
 ### [Day10](https://github.com/zzkzzk1996/LeetForWork/tree/master/src/Day10)
 - 27&emsp;Remove Element 数组操作
@@ -77,3 +77,61 @@
 - 80&emsp;Remove Duplicates from Sorted Array II 数组操作
 - 57&emsp;Insert Interval 区间问题
 - 56&emsp;Merge Intervals 区间问题
+
+### [Day11](https://github.com/zzkzzk1996/LeetForWork/tree/master/src/Day11)
+- 252&emsp;Meeting Rooms
+- 253&emsp;Meeting Rooms II
+- 228&emsp;Summary Ranges 扫描线思想
+- 163&emsp;Missing Ranges 扫描线思想
+- 53&emsp;Maximum Subarray 子数组
+
+### [Day12](https://github.com/zzkzzk1996/LeetForWork/tree/master/src/Day12)
+- 325&emsp;Maximum Size Subarray Sum Equals k 子数组
+- 209&emsp;Minimum Size Subarray Sum 子数组
+- 238&emsp;Product of Array Except Self 子数组
+
+### [Day13](https://github.com/zzkzzk1996/LeetForWork/tree/master/src/Day13)
+- 152&emsp;Maximum Product Subarray 子数组
+- 11&emsp;Container With Most Water
+- 48&emsp;Rotate Image
+- 54&emsp;Spiral Matrix 
+- 59&emsp;Spiral Matrix II 
+
+### [Day14](https://github.com/zzkzzk1996/LeetForWork/tree/master/src/Day14)
+- 75&emsp;Sort Colors
+- 283&emsp;Move Zeroes
+- 215&emsp;Kth Largest Element in an Array （多种）
+- 287&emsp;Find the Duplicate Number 
+
+### [Day15](https://github.com/zzkzzk1996/LeetForWork/tree/master/src/Day15)
+- 334&emsp;Increasing Triplet Subsequence
+- 300&emsp;Longest Increasing Subsequence
+- 88&emsp;Merge Sorted Array
+- 387&emsp;First Unique Character in a String
+- 164&emsp;Maximum Gap 桶排序
+- 347&emsp;Top K Frequent Elements （多种）
+
+### [Day16](https://github.com/zzkzzk1996/LeetForWork/tree/master/src/Day16)
+- 243&emsp;Shortest Word Distance 
+- 244&emsp;Shortest Word Distance II  hashmap
+- 245&emsp;Shortest Word Distance III 
+- 73&emsp;Set Matrix Zeroes&emsp;
+
+### [Day17](https://github.com/zzkzzk1996/LeetForWork/tree/master/src/Day17)
+- 189&emsp;Rotate Array 交换
+- 280&emsp;Wiggle Sort 交换
+- 376&emsp;Wiggle Subsequence 
+- 274&emsp;H-Index
+- 229&emsp;Majority Element II 
+- 277&emsp;Find the Celebrity
+- 370&emsp;Range Addition 
+- 296&emsp;Best Meeting Point
+- 169&emsp;Majority Element 
+
+## Binary Search
+
+### [Day18](https://github.com/zzkzzk1996/LeetForWork/tree/master/src/Day18)
+- 278&emsp;First Bad Version
+- 35&emsp;Search Insert Position
+- 374&emsp;Guess Number Higher or Lower
+- 34&emsp;Search for a Range
