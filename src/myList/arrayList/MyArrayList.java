@@ -22,8 +22,9 @@ public interface MyArrayList<E> {
     /**
      * add element to the last position of the array
      * @param element
+     * @return
      */
-    void add(E element);
+    boolean add(E element);
 
     /**
      * add element to the very position of the array
@@ -63,8 +64,9 @@ public interface MyArrayList<E> {
     /**
      * remove element by element
      * @param element
+     * @return
      */
-    void remove(E element);
+    boolean remove(E element);
 
     /**
      * print

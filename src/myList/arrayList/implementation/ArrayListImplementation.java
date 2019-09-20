@@ -56,10 +56,12 @@ public class ArrayListImplementation<E> implements MyArrayList<E> {
      * time: O(1)
      *
      * @param element
+     * @return
      */
     @Override
-    public void add(E element) {
+    public boolean add(E element) {
         add(size, element);
+        return true;
     }
 
     /**
@@ -154,9 +156,10 @@ public class ArrayListImplementation<E> implements MyArrayList<E> {
      * time: O(n)
      *
      * @param element
+     * @return
      */
     @Override
-    public void remove(E element) {
+    public boolean remove(E element) {
         int index = -1;
         for (int i = 0; i < size; i++) {
             if (data[i] == element) {
@@ -167,6 +170,7 @@ public class ArrayListImplementation<E> implements MyArrayList<E> {
             throw new IllegalArgumentException("No such element");
         }
         remove(index);
+        return true;
     }
 
     @Override
