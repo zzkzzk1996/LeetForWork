@@ -178,7 +178,7 @@ public class ArrayListImplementation<E> implements MyArrayList<E> {
         System.out.println("Size" + size);
         System.out.println("Capacity" + data.length);
         for (int i = 0; i < size; i++) {
-            System.out.println(data[i] + " ");
+            System.out.print(data[i] + " ");
         }
     }
 
