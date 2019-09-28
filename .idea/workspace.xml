@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cc4dfd3-f445-4c0b-ac71-d900b3823fd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4cc4dfd3-f445-4c0b-ac71-d900b3823fd3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,11 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Day26/BasicCalculatorII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+            <state relative-caret-position="608">
+              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Day27/SimplifyPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -122,15 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="640">
               <caret line="180" column="44" lean-forward="true" selection-start-line="180" selection-start-column="44" selection-end-line="180" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Day23/CopyListwithRandomPointer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -174,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Day19/SearchinRotatedSortedArrayII.java" />
         <option value="$PROJECT_DIR$/src/Day19/FindMinimuminRotatedSortedArrayII.java" />
         <option value="$PROJECT_DIR$/src/Day19/FindMinimuminRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/Day19/Searcha2DMatrix.java" />
@@ -225,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/Day26/EvaluateReversePolishNotation.java" />
         <option value="$PROJECT_DIR$/src/Day26/BasicCalculator.java" />
         <option value="$PROJECT_DIR$/src/Day26/BasicCalculatorII.java" />
+        <option value="$PROJECT_DIR$/src/Day27/SimplifyPath.java" />
       </list>
     </option>
   </component>
@@ -271,7 +269,7 @@
               <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Day26" type="462c0819:PsiDirectoryNode" />
+              <item name="Day27" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -416,12 +414,12 @@
       <workItem from="1569040348138" duration="226000" />
       <workItem from="1569085967222" duration="9748000" />
       <workItem from="1569369485829" duration="1083000" />
-      <workItem from="1569525568252" duration="6821000" />
+      <workItem from="1569525568252" duration="7277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98314000" />
+    <option name="totallyTimeSpent" value="98770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +434,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49806452" visible="true" weight="0.18051118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49806452" visible="true" weight="0.18051118" />
       <window_info id="Structure" order="1" sideWeight="0.5019355" side_tool="true" weight="0.17252396" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,7 +443,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5009901" side_tool="true" weight="0.3042654" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23267327" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23267327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32871288" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,13 +518,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Day19/Searcha2DMatrixII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Day20/SwapNodesinPairs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -922,8 +913,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day26/BasicCalculatorII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+        <state relative-caret-position="608">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day27/SimplifyPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
