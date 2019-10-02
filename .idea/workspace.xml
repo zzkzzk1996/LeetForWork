@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cc4dfd3-f445-4c0b-ac71-d900b3823fd3" name="Default Changelist" comment="" />
+    <list default="true" id="4cc4dfd3-f445-4c0b-ac71-d900b3823fd3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Day31/CompareVersionNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day31/CompareVersionNumbers.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Day31/CompareVersionNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="300">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -187,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Day21/DeleteNodeinaLinkedList.java" />
         <option value="$PROJECT_DIR$/src/Day21/RemoveNthNodeFromEndofList.java" />
         <option value="$PROJECT_DIR$/src/Day21/RemoveDuplicatesfromSortedList.java" />
         <option value="$PROJECT_DIR$/src/Day21/RemoveLinkedListElements.java" />
@@ -238,6 +239,7 @@
         <option value="$PROJECT_DIR$/src/myQueue/implementation/ArrayCircularQueueImplementation.java" />
         <option value="$PROJECT_DIR$/src/myQueue/Main.java" />
         <option value="$PROJECT_DIR$/src/Day30/ImplementStackusingQueues.java" />
+        <option value="$PROJECT_DIR$/src/Day31/CompareVersionNumbers.java" />
       </list>
     </option>
   </component>
@@ -277,12 +279,6 @@
               <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Day31" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -430,12 +426,12 @@
       <workItem from="1569085967222" duration="9748000" />
       <workItem from="1569369485829" duration="1083000" />
       <workItem from="1569525568252" duration="7470000" />
-      <workItem from="1569693079431" duration="9415000" />
+      <workItem from="1569693079431" duration="9630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108378000" />
+    <option name="totallyTimeSpent" value="108593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -970,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day31/CompareVersionNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
