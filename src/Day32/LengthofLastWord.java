@@ -8,4 +8,11 @@ package Day32;
  */
 
 public class LengthofLastWord {
+    public int lengthOfLastWord(String s) {
+        if (s == null) return 0;
+        s = s.trim();
+        if (s.length() == 0) return 0;
+        String[] temp = s.split("\\s+");
+        return temp[temp.length - 1].length();
+    }
 }
