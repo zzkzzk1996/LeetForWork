@@ -2,6 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc4dfd3-f445-4c0b-ac71-d900b3823fd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/Day36/IntegertoEnglishWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/Day37/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/myHashTable/hashCode/HashCode$Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/myHashTable/hashCode/HashCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/myHashTable/myHashTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/myHashTable/openAddressing/HashNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/myHashTable/openAddressing/implementation/HashTableOpenAddressing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/myHashTable/openAddressing/implementation/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/myHashTable/separateChaining/HashNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/myHashTable/separateChaining/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetForWork/myHashTable/separateChaining/implementation/HashTableSeparateChaining.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myHashTable/hashCode/HashCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myHashTable/myHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myHashTable/openAddressing/HashNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myHashTable/openAddressing/implementation/HashTableOpenAddressing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myHashTable/openAddressing/implementation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myHashTable/separateChaining/HashNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myHashTable/separateChaining/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myHashTable/separateChaining/implementation/HashTableSeparateChaining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetForWork/Day36/IntegertoRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetForWork/Day36/IntegertoRoman.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day37/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day37/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,19 +41,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Day36/IntegertoRoman.java">
+        <entry file="file://$PROJECT_DIR$/src/Day37/LongestSubstringWithoutRepeatingCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="617">
+              <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Day37/LongestSubstringWithoutRepeatingCharacters.java">
+        <entry file="file://$PROJECT_DIR$/src/Day38/LongestSubstringwithAtMostKDistinctCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+            <state relative-caret-position="645">
+              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="2376" column="53" lean-forward="true" selection-start-line="2376" selection-start-column="53" selection-end-line="2376" selection-end-column="53" />
+              <folding>
+                <element signature="e#94598#94599#0" expanded="true" />
+                <element signature="e#94636#94637#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +124,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/myHashTable/openAddressing/implementation/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -123,15 +157,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Day36/IntegertoEnglishWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -177,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/myStack/MyLinkedListStack.java" />
         <option value="$PROJECT_DIR$/src/myStack/implementation/LinkedListImplementation.java" />
         <option value="$PROJECT_DIR$/src/Day26/EvaluateReversePolishNotation.java" />
         <option value="$PROJECT_DIR$/src/Day26/BasicCalculator.java" />
@@ -228,6 +252,7 @@
         <option value="$PROJECT_DIR$/src/myHashTable/openAddressing/HashNode.java" />
         <option value="$PROJECT_DIR$/src/myHashTable/openAddressing/implementation/HashTableOpenAddressing.java" />
         <option value="$PROJECT_DIR$/src/myHashTable/openAddressing/implementation/Main.java" />
+        <option value="$PROJECT_DIR$/src/Day38/LongestSubstringwithAtMostKDistinctCharacters.java" />
       </list>
     </option>
   </component>
@@ -274,29 +299,13 @@
               <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="myHashTable" type="462c0819:PsiDirectoryNode" />
+              <item name="Day37" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="myHashTable" type="462c0819:PsiDirectoryNode" />
-              <item name="openAddressing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="myHashTable" type="462c0819:PsiDirectoryNode" />
-              <item name="openAddressing" type="462c0819:PsiDirectoryNode" />
-              <item name="implementation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="myHashTable" type="462c0819:PsiDirectoryNode" />
-              <item name="separateChaining" type="462c0819:PsiDirectoryNode" />
+              <item name="Day38" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,12 +453,12 @@
       <workItem from="1569525568252" duration="7470000" />
       <workItem from="1569693079431" duration="19224000" />
       <workItem from="1570504247675" duration="161000" />
-      <workItem from="1570504729134" duration="7979000" />
+      <workItem from="1570504729134" duration="9097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126327000" />
+    <option name="totallyTimeSpent" value="127445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +473,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.18530351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.18530351" />
       <window_info id="Structure" order="1" sideWeight="0.5032258" side_tool="true" weight="0.18210863" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -473,7 +482,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5009901" side_tool="true" weight="0.3042654" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23267327" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23267327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32871288" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,25 +566,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-668">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day29/FlattenNestedListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Day29/NestedInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -917,13 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day37/LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/myHashTable/example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1011,6 +994,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day37/LongestSubstringWithoutRepeatingCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day38/LongestSubstringwithAtMostKDistinctCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="2376" column="53" lean-forward="true" selection-start-line="2376" selection-start-column="53" selection-end-line="2376" selection-end-column="53" />
+          <folding>
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
