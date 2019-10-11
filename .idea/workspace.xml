@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cc4dfd3-f445-4c0b-ac71-d900b3823fd3" name="Default Changelist" comment="" />
+    <list default="true" id="4cc4dfd3-f445-4c0b-ac71-d900b3823fd3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Day15/LongestArithmeticSubsequenceofGivenDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day15/LongestArithmeticSubsequenceofGivenDifference.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Day15/LongestArithmeticSubsequenceofGivenDifference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+            <state relative-caret-position="555">
+              <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -268,12 +270,6 @@
               <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Day15" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetForWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetForWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Day40" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -425,12 +421,12 @@
       <workItem from="1570504247675" duration="161000" />
       <workItem from="1570504729134" duration="10576000" />
       <workItem from="1570743068699" duration="149000" />
-      <workItem from="1570743415201" duration="3643000" />
+      <workItem from="1570743415201" duration="3931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132716000" />
+    <option name="totallyTimeSpent" value="133004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -961,8 +957,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day15/LongestArithmeticSubsequenceofGivenDifference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        <state relative-caret-position="555">
+          <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

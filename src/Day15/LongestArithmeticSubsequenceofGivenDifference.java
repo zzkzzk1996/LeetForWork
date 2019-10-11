@@ -35,9 +35,7 @@ public class LongestArithmeticSubsequenceofGivenDifference {
         for (int i = 0; i < arr.length; i++) {
             int value = arr[i], pre = value - difference;
             map.put(value, map.getOrDefault(pre, 0) + 1);
-        }
-        for (Integer num : map.values()) {
-            maxLen = Math.max(maxLen, num);
+            maxLen = Math.max(maxLen, map.get(value));
         }
         return maxLen;
     }
