@@ -1,4 +1,4 @@
-package graph.Prim;
+package graph.prim;
 
 import java.util.ArrayList;
 import java.util.List;

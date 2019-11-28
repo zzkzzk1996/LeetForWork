@@ -1,4 +1,4 @@
-package graph.Prim;
+package graph.prim;
 
 /**
  * @program: LeetForWork
