@@ -23,7 +23,7 @@ public class FibonacciNumber {
     }
 
     //DP
-    public int fibDp(int N) {
+    public int fibDP(int N) {
         if (N <= 1) return N;
         int[] dp = new int[N + 1];
         dp[0] = 0;
@@ -32,5 +32,16 @@ public class FibonacciNumber {
             dp[i] = dp[i - 1] + dp[i - 2];
         }
         return dp[N];
+    }
+
+    public int fibDPImpro(int N) {
+        if (N <= 1) return N;
+        int a = 0, b = 1;
+        for (int i = 2; i <= N; i++) {
+            int temp = b;
+            b = a + b;
+            a = temp;
+        }
+        return b;
     }
 }
