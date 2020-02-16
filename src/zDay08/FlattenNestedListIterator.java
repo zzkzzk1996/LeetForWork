@@ -11,6 +11,9 @@ import java.util.Stack;
  * @create: 2020-02-15 19:22
  */
 
+/**
+ * Check 251. Flatten 2D Vector, same question
+ */
 public class FlattenNestedListIterator {
     private Stack<NestedInteger> stack;
 
