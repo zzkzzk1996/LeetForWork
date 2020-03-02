@@ -25,7 +25,7 @@ public class WordLadder {
                 for (char j = 'a'; j <= 'z'; j++) {
                     charArr[i] = j;
                     String temp = new String(charArr);
-                    if (graph.getNode(temp) != null && !word.equals(temp) && !graph.getNode(word).nexts.contains(temp)) {
+                    if (graph.getNode(temp) != null && !word.equals(temp) && !graph.getNode(word).nexts.contains(graph.getNode(temp))) {
                         graph.getNode(word).nexts.add(graph.getNode(temp));
                     }
                 }
