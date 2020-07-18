@@ -3,9 +3,7 @@ package tree.binarySearchTree.implement;
 import tree.binarySearchTree.MyBinarySearchTree;
 import tree.binarySearchTree.TreeNode;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 /**
@@ -69,7 +67,6 @@ public class BinarySearchTreeImplement implements MyBinarySearchTree {
             TreeNode min = findMin(node.right);
             node.val = min.val;
             node.right = remove(node.right, node.val);
-            size--;
         }
         return node;
     }

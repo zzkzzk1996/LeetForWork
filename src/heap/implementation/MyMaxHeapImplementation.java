@@ -30,6 +30,10 @@ public class MyMaxHeapImplementation<E extends Comparable<E>> implements MyMaxHe
         heapify(data);
     }
 
+    /**
+     * Build a Priority Queue
+     * @param data
+     */
     private void heapify(E[] data) {
         for (int i = getParentIndex(size - 1); i >= 0; i--) {
             siftDownHeapify(i);
