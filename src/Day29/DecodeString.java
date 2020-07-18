@@ -32,7 +32,7 @@ public class DecodeString {
             } else if (c == ']') {
                 int time = countStack.pop();
                 StringBuilder temp = new StringBuilder(stringStack.pop());
-                for (int j = 1; j < time; j++) {
+                for (int j = 0; j < time; j++) {
                     temp.append(res);
                 }
                 res = temp.toString();

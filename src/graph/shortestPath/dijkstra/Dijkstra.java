@@ -57,7 +57,7 @@ public class Dijkstra {
 
     public void print(int[] minDist) {
         for (int i = 0; i < minDist.length; i++) {
-            System.out.println("Vertex 0 : "  + " - " + i + " minDist : " + minDist[i]);
+            System.out.println("Vertex 0 : "  + " -> " + i  + " minDist : " + minDist[i]);
         }
     }
 

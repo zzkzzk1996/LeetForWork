@@ -40,7 +40,7 @@ public class BinaryIndexTree {
         int sum = 0;
         for (int i = k; i > 0; i -= i & (-i)) {
             sum += tree[i];
-            System.out.println(i + ", " + (-i) + ", " + Integer.toBinaryString(-i) + ", " + (i & (-i)));
+//            System.out.println(i + ", " + (-i) + ", " + Integer.toBinaryString(-i) + ", " + (i & (-i)));
         }
         System.out.println();
         return sum;
